@@ -1,0 +1,25 @@
+      @charset "UTF-8";
+      
+      body {
+            background-color: lightgoldenrodyellow;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+        h1 {
+            color: maroon;
+            background-color: goldenrod;
+        }
+        h2 {
+            color: red;
+        }
+        p {
+            text-align: justify;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: blueviolet;
+        }
+        a {
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+        }

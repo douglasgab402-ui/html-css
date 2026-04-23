@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode varios elementos)
+*/
+
+@font-face {
+    font-family: 'Smile';
+    src: url(fonte/Smile\ Delight\ \(Demo_Font\).otf) format('opentype');
+}
+
+body {
+    background-color: #b8c7ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #323E69;
+}
+
+h1#principal {
+    font-family: 'Smile', serif;
+    text-align: center;
+    background-color: #42528B;
+    color: white;
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+h2 {
+    color: #5165AD;
+}
+
+.basico {
+    color: #28c700;
+}
+
+.intermediario {
+    color: #ff5100;
+}
+
+.avancado {
+    color: #ca0000;
+}
+
+.destaque {
+    background-color: #c6c93a77;
+}
